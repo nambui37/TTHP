@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    background: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tab.active {
+    background: #008000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.leader {
+    text-align: center;
+}
+
+.leader img {
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.name {
+    font-weight: bold;
+    color: blue;
+}
+
+.term {
+    font-style: italic;
+}
+
+.social-share {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-share img {
+    width: 30px;
+    height: auto;
+}
