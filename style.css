@@ -1,23 +1,22 @@
-/* Định dạng chung */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    font-size: 16px; /* Tăng cỡ chữ chung */
+    font-size: 16px; 
 }
 
-/* Header */
+
 header {
     background-color: #1878d7;
     color: white;
     padding: 20px 0;
     text-align: center;
-    font-size: 22px; /* Chữ lớn hơn */
+    font-size: 22px; 
     font-weight: bold;
 }
 
-/* Navigation */
 nav {
     background-color: #003366;
     padding: 12px;
@@ -26,21 +25,18 @@ nav {
     justify-content: space-around;
 }
 
-/* Các liên kết trong nav */
 nav a {
     color: white;
     text-decoration: none;
     padding: 14px 22px;
-    font-size: 18px; /* Chữ lớn hơn */
+    font-size: 18px; 
 }
 
-/* Hover menu */
 nav a:hover {
     background-color: #00509E;
     border-radius: 5px;
 }
 
-/* Dropdown menu */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -51,17 +47,14 @@ nav a:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Hover menu con */
 .dropdown-menu a:hover {
     background-color: #00509E;
 }
 
-/* Hiển thị menu con khi hover */
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* Search bar */
 .search input {
     padding: 10px;
     font-size: 16px;
@@ -78,14 +71,12 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* Container chính */
 .container {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
 }
 
-/* Main content */
 main {
     flex: 3;
     background: white;
@@ -95,7 +86,6 @@ main {
     font-size: 18px;
 }
 
-/* Sidebar */
 aside {
     flex: 1;
     background: lightgray;
@@ -104,7 +94,6 @@ aside {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
 footer {
     background-color: #007bff;
     color: white;
@@ -114,22 +103,19 @@ footer {
     font-size: 18px;
 }
 
-/* Ảnh */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Headline */
 .headline {
     background-color: #fff6f3;
     color: rgb(225, 0, 0);
     padding: 15px;
     text-align: center;
-    font-size: 20px; /* Chữ lớn hơn */
+    font-size: 20px; 
 }
 
-/* Sidebar */
 aside h2 {
     font-size: 24px;
     color: red;
@@ -144,7 +130,6 @@ aside p {
     line-height: 1.6;
 }
 
-/* Bố cục trang chủ */
 .home-layout {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -158,14 +143,12 @@ aside p {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Tin tức */
 .home-news {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* Tin tức nhỏ */
 .news-item {
     display: flex;
     align-items: center;
@@ -174,7 +157,6 @@ aside p {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Ảnh tin tức nhỏ */
 .news-item img {
     width: 100px;  /* Ảnh lớn hơn */
     height: 80px;
@@ -182,13 +164,11 @@ aside p {
     object-fit: cover;
 }
 
-/* Chữ trong tin tức */
 .news-item p {
     font-size: 16px;
     font-weight: bold;
 }
 
-/* Sidebar */
 .sidebar {
     background: #fff;
     border-radius: 5px;
@@ -196,7 +176,6 @@ aside p {
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Danh sách tin tức */
 .news-list {
     list-style: none;
     padding: 0;
@@ -218,49 +197,42 @@ aside p {
     font-size: 14px;
     color: gray;
 }
-/* Thiết lập dropdown container */
 .dropdown {
     position: relative;
 }
 
-/* Định dạng dropdown menu */
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%; /* Đảm bảo menu hiển thị ngay dưới */
+    top: 100%; 
     left: 0;
     background-color: #499cef;
-    min-width: 200px; /* Đảm bảo đủ rộng để chữ không xuống dòng */
+    min-width: 200px; 
     padding: 10px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    z-index: 9999; /* Đảm bảo không bị che */
+    z-index: 9999;
 }
 
-/* Hiển thị menu khi hover */
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* Căn chỉnh lại các mục con */
 .dropdown-menu a {
     display: block;
     padding: 10px 15px;
     color: white;
     text-decoration: none;
-    white-space: nowrap; /* Ngăn chữ bị xuống dòng */
+    white-space: nowrap;
 }
 
-/* Khi hover vào menu */
 .dropdown-menu a:hover {
     background-color: #0056b3;
 }
-/* Định dạng chung cho menu */
 .navbar {
-    background-color: #0B3B7A; /* Màu xanh đậm */
+    background-color: #0B3B7A; 
     font-family: Arial, sans-serif;
 }
 
-/* Mục chính của menu */
 .navbar a {
     color: white;
     text-decoration: none;
@@ -269,36 +241,31 @@ aside p {
     font-size: 16px;
 }
 
-/* Hover trên menu chính */
 .navbar a:hover, .navbar .dropdown:hover > a {
-    background-color: #1E5AA7; /* Màu xanh sáng hơn khi hover */
+    background-color: #1E5AA7; 
 }
 
-/* Dropdown container */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Nội dung dropdown */
 .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #1E5AA7; /* Màu xanh nền dropdown */
+    background-color: #1E5AA7; 
     min-width: 220px;
     padding: 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     z-index: 9999;
 }
 
-/* Hiển thị dropdown khi hover */
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* Các mục trong dropdown */
 .dropdown-menu a {
     padding: 12px 18px;
     color: white;
@@ -306,17 +273,16 @@ aside p {
     transition: background 0.3s ease-in-out;
 }
 
-/* Hover trên mục dropdown */
 .dropdown-menu a:hover {
-    background-color: #0B3B7A; /* Màu xanh đậm khi hover */
+    background-color: #0B3B7A; 
 }
 .news-title, .news-text, .news-date {
-    transition: color 0.3s ease; /* Hiệu ứng mượt */
+    transition: color 0.3s ease; 
 }
 
 .news-title:hover, .news-text:hover, .news-date:hover {
-    color: #1878d7; /* Màu xanh khi hover */
-    cursor: pointer; /* Biến con trỏ thành hình bàn tay */
+    color: #1878d7;
+    cursor: pointer; 
 }
 footer {
     background-color: #004A7F;
@@ -434,12 +400,12 @@ footer {
     border: 1px solid #ddd;
     padding: 10px;
     transition: all 0.3s ease;
-    cursor: pointer; /* Biến con trỏ chuột thành bàn tay */
+    cursor: pointer; 
 }
 
 .calendar td:hover {
-    background: #004A7F;  /* Đổi màu nền khi hover */
-    color: white; /* Đổi màu chữ để dễ đọc */
-    font-weight: bold; /* Làm đậm chữ */
-    transform: scale(1.1); /* Phóng to nhẹ */
+    background: #004A7F; 
+    color: white;
+    font-weight: bold; 
+    transform: scale(1.1);
 }
